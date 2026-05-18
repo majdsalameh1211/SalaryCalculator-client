@@ -1,0 +1,63 @@
+{
+  "app": { "title": "מחשבון שכר" },
+  "nav": { "shifts": "משמרות", "statistics": "סטטיסטיקה", "settings": "הגדרות", "all": "הכל", "month": "חודש" },
+  "month": {
+    "january":"ינואר","february":"פברואר","march":"מרץ","april":"אפריל",
+    "may":"מאי","june":"יוני","july":"יולי","august":"אוגוסט",
+    "september":"ספטמבר","october":"אוקטובר","november":"נובמבר","december":"דצמבר"
+  },
+  "summary": { "totalHours":"סה״כ שעות","fuel":"דלק","parking":"חניה","totalSalary":"משכורת כוללת","netSalary":"משכורת נטו" },
+  "shifts": {
+    "title":"משמרות החודש","addShift":"הוסף משמרת","noShifts":"אין משמרות החודש",
+    "date":"תאריך","start":"התחלה","end":"סיום","hours":"שעות","rate":"תעריף/ש",
+    "cash":"מיזומן","bonus":"בונוס","transfer":"העברה","salary":"משכורת","net":"נטו",
+    "fuelCol":"דלק","parkCol":"חניה","night":"לילה","daily":"יומי",
+    "monthlyTotal":"סה״כ משמרות","trainingTotal":"סה״כ התלמדות",
+    "regularSection":"משמרות רגילות","trainingSection":"משמרות התלמדות",
+    "belowMin":"תעריף מתחת למינימום","rateWarn":"תעריף מתחת לשכר מינימום"
+  },
+  "form": {
+    "addTitle":"הוסף משמרת","editTitle":"ערוך משמרת",
+    "regular":"משמרת רגילה","training":"משמרת התלמדות",
+    "date":"תאריך","startTime":"שעת התחלה","endTime":"שעת סיום","hoursAuto":"שעות (אוטו׳)",
+    "inputMode":"מצב קלט","hourly":"תעריף לשעה","daily":"שכר יומי",
+    "hourlyRate":"תעריף לשעה","dailySalary":"שכר יומי","trainingRate":"תעריף התלמדות",
+    "fuel":"דלק","parking":"חניה","minHint":"מינימום","overnight":"משמרת לילה זוהתה",
+    "trainingNotice":"התלמדות — תעריף × שעות + בונוס. ללא מיזומן או העברה.",
+    "cash":"מיזומן","bonus":"בונוס","transfer":"העברה","salary":"משכורת","netSalary":"נטו",
+    "save":"שמור משמרת","saveTraining":"שמור משמרת התלמדות","cancel":"ביטול","update":"עדכן משמרת"
+  },
+  "settings": {
+    "title":"הגדרות",
+    "indicatorsSection":"אינדיקטורים וסף",
+    "calcSection":"כללי חישוב",
+    "defaultsSection":"ברירות מחדל לטופס",
+    "langSection":"שפה ותצוגה",
+    "minWage":"שכר מינימום","minWageHint":"תעריף מתחת → שורה אדומה",
+    "hoursThreshold":"סף שעות","hoursThresholdHint":"≤ זה → נקודה צהובה · מעל → נקודה ירוקה",
+    "bonusPerHour":"בונוס לשעה","bonusHint":"לכל השעות — רגילות והתלמדות",
+    "trainingRate":"תעריף התלמדות ברירת מחדל","trainingRateHint":"נמצא כשאין תעריף למשמרת התלמדות",
+    "defaultFuel":"דלק ברירת מחדל","defaultFuelHint":"ימולא אוטומטית בכל משמרת חדשה",
+    "defaultParking":"חניה ברירת מחדל","defaultParkingHint":"ימולא אוטומטית בכל משמרת חדשה",
+    "language":"שפה","languageHint":"עברית וערבית מחליפות לפריסה מימין לשמאל",
+    "theme":"ערכת נושא","themeHint":"נשמר בדפדפן שלך",
+    "light":"בהיר","dark":"כהה","saved":"נשמר ✓"
+  },
+  "stats": {
+    "title":"סטטיסטיקה","allMonths":"כל החודשים","singleMonth":"חודש בודד",
+    "totalHours":"סה״כ שעות","totalBonus":"סה״כ בונוס",
+    "shiftSalary":"שכר משמרות","trainingSalary":"שכר התלמדות",
+    "totalSalary":"משכורת כוללת","fuel":"דלק","parking":"חניה","netSalary":"משכורת נטו",
+    "historyTitle":"היסטוריית כל החודשים","monthBreakdown":"פירוט חודש",
+    "month":"חודש","shifts":"משמרות","training":"התלמדות",
+    "bonus":"סה״כ בונוס","salary":"משכורת כוללת","net":"משכורת נטו",
+    "grandTotal":"סה״כ כולל","combined":"מצטבר",
+    "regularShifts":"משמרות רגילות","trainingShifts":"משמרות התלמדות",
+    "allShifts":"משמרות · ","allTraining":"התלמדות"
+  },
+  "legend": {
+    "belowMin":"תעריף מתחת למינימום — שורה מלאה","lowHours":"שעות ≤ סף — נקודה בלבד",
+    "goodHours":"שעות > סף — נקודה בלבד","training":"משמרת התלמדות — שורה מלאה"
+  },
+  "languages": { "en":"English","he":"עברית","ar":"العربية" }
+}

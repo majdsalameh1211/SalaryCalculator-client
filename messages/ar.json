@@ -1,0 +1,63 @@
+{
+  "app": { "title": "حاسبة الراتب" },
+  "nav": { "shifts": "الورديات", "statistics": "الإحصاء", "settings": "الإعدادات", "all": "الكل", "month": "شهر" },
+  "month": {
+    "january":"يناير","february":"فبراير","march":"مارس","april":"أبريل",
+    "may":"مايو","june":"يونيو","july":"يوليو","august":"أغسطس",
+    "september":"سبتمبر","october":"أكتوبر","november":"نوفمبر","december":"ديسمبر"
+  },
+  "summary": { "totalHours":"إجمالي الساعات","fuel":"وقود","parking":"مواقف","totalSalary":"إجمالي الراتب","netSalary":"صافي الراتب" },
+  "shifts": {
+    "title":"ورديات الشهر","addShift":"إضافة وردية","noShifts":"لا توجد ورديات هذا الشهر",
+    "date":"التاريخ","start":"البداية","end":"النهاية","hours":"ساعات","rate":"سعر/س",
+    "cash":"نقدي","bonus":"مكافأة","transfer":"تحويل","salary":"الراتب","net":"صافي",
+    "fuelCol":"وقود","parkCol":"مواقف","night":"ليلي","daily":"يومي",
+    "monthlyTotal":"إجمالي الورديات","trainingTotal":"إجمالي التدريب",
+    "regularSection":"الورديات العادية","trainingSection":"ورديات التدريب",
+    "belowMin":"السعر أقل من الحد","rateWarn":"السعر أقل من الحد الأدنى"
+  },
+  "form": {
+    "addTitle":"إضافة وردية","editTitle":"تعديل الوردية",
+    "regular":"وردية عادية","training":"وردية تدريب",
+    "date":"التاريخ","startTime":"وقت البداية","endTime":"وقت النهاية","hoursAuto":"الساعات (تلقائي)",
+    "inputMode":"وضع الإدخال","hourly":"سعر الساعة","daily":"الراتب اليومي",
+    "hourlyRate":"سعر الساعة","dailySalary":"الراتب اليومي","trainingRate":"سعر التدريب",
+    "fuel":"وقود","parking":"مواقف","minHint":"الحد الأدنى","overnight":"تم اكتشاف وردية ليلية",
+    "trainingNotice":"تدريب — السعر × الساعات + مكافأة. بدون تقسيم نقدي أو تحويل.",
+    "cash":"نقدي","bonus":"مكافأة","transfer":"تحويل","salary":"الراتب","netSalary":"صافي",
+    "save":"حفظ الوردية","saveTraining":"حفظ وردية التدريب","cancel":"إلغاء","update":"تحديث الوردية"
+  },
+  "settings": {
+    "title":"الإعدادات",
+    "indicatorsSection":"المؤشرات والحدود",
+    "calcSection":"قواعد الحساب",
+    "defaultsSection":"الإعدادات الافتراضية",
+    "langSection":"اللغة والعرض",
+    "minWage":"الحد الأدنى للأجور","minWageHint":"السعر أقل من هذا → صف أحمر",
+    "hoursThreshold":"حد الساعات","hoursThresholdHint":"≤ هذا → نقطة صفراء · فوق → نقطة خضراء",
+    "bonusPerHour":"مكافأة لكل ساعة","bonusHint":"لجميع الساعات — العادية والتدريب",
+    "trainingRate":"سعر التدريب الافتراضي","trainingRateHint":"يُستخدم عند عدم إدخال سعر لوردية التدريب",
+    "defaultFuel":"الوقود الافتراضي","defaultFuelHint":"يُملأ تلقائياً لكل وردية جديدة",
+    "defaultParking":"المواقف الافتراضية","defaultParkingHint":"يُملأ تلقائياً لكل وردية جديدة",
+    "language":"اللغة","languageHint":"العربية والعبرية تتحول تلقائياً إلى اليمين لليسار",
+    "theme":"المظهر","themeHint":"محفوظ في متصفحك",
+    "light":"فاتح","dark":"داكن","saved":"تم الحفظ ✓"
+  },
+  "stats": {
+    "title":"الإحصاء","allMonths":"جميع الأشهر","singleMonth":"شهر واحد",
+    "totalHours":"إجمالي الساعات","totalBonus":"إجمالي المكافآت",
+    "shiftSalary":"راتب الورديات","trainingSalary":"راتب التدريب",
+    "totalSalary":"إجمالي الراتب","fuel":"وقود","parking":"مواقف","netSalary":"صافي الراتب",
+    "historyTitle":"سجل جميع الأشهر","monthBreakdown":"تفاصيل الشهر",
+    "month":"الشهر","shifts":"ورديات","training":"تدريب",
+    "bonus":"إجمالي المكافآت","salary":"إجمالي الراتب","net":"صافي الراتب",
+    "grandTotal":"المجموع الكلي","combined":"مجمّع",
+    "regularShifts":"الورديات العادية","trainingShifts":"ورديات التدريب",
+    "allShifts":"ورديات · ","allTraining":"تدريب"
+  },
+  "legend": {
+    "belowMin":"السعر أقل من الحد — صف كامل","lowHours":"الساعات ≤ الحد — نقطة فقط",
+    "goodHours":"الساعات > الحد — نقطة فقط","training":"وردية تدريب — صف كامل"
+  },
+  "languages": { "en":"English","he":"עברית","ar":"العربية" }
+}
